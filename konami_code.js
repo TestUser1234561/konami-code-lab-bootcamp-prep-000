@@ -16,5 +16,6 @@ function testCode(key) {
     index++;
   } else if(index = code.length - 1) {
     alert("Hurray!")
+    index = 0;
   }
 }

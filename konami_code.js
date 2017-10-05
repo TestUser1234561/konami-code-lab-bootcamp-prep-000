@@ -6,11 +6,11 @@ function init() {
   const input = document.getElementsByTagName("BODY")[0];
 
   input.addEventListener('keydown', function(e) {
-    console.log(e.which)
+    testCode(e.which)
   })
 
 }
 
 function testCode(key) {
-  
+
 }

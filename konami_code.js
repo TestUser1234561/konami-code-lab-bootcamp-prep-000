@@ -18,10 +18,6 @@ function testCode(key) {
   console.log(code[index]);
   if(key == code[index]) {
     index++;
-  } else if(index = code.length - 1) {
-    alert("Hurray!")
-    console.log("Done!");
-    index = 0;
   } else {
     index = 0;
   }

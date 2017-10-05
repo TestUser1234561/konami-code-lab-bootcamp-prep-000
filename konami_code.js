@@ -13,6 +13,9 @@ function init() {
 
 function testCode(key) {
   key = parseInt(key)
+  console.log(key);
+  console.log(index);
+  console.log(code[index]);
   if(key == code[index]) {
     index++;
 

@@ -12,10 +12,7 @@ function init() {
 }
 
 function testCode(key) {
-  console.log(key);
   key = parseInt(key)
-  console.log(key);
-  console.log(code[index]);
   if(key == code[index]) {
     index++;
 

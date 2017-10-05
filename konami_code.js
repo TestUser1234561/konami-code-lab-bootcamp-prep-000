@@ -12,6 +12,7 @@ function init() {
 }
 
 function testCode(key) {
+  key = parseInt(key)
   if(key == code[index]) {
     index++;
   } else if(index = code.length - 1) {

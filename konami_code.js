@@ -19,7 +19,7 @@ function testCode(key) {
   if(key == code[index]) {
     index++;
 
-    if(index = code.length - 1) {
+    if(index = code.length) {
       alert("Hurray!")
       console.log("Done!");
       index = 0;

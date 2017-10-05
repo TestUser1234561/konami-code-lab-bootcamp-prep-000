@@ -12,5 +12,9 @@ function init() {
 }
 
 function testCode(key) {
-  
+  if(key == code[index]) {
+    index++;
+  } else if(index = code.length - 1) {
+    alert("Hurray!")
+  }
 }
